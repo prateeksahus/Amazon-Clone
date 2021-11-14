@@ -1,0 +1,33 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  background: rgb(234, 237, 237);
+  height: max-content;
+  align-items: flex-start;
+}
+
+.checkout__left {
+  background: #fff;
+  flex: 6;
+  align-self: start;
+  margin-right: 20px;
+}
+
+.checkout__title {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout__right {
+  box-sizing: border-box;
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.checkout__right > img {
+  object-fit: contain;
+  width: 100%;
+}
